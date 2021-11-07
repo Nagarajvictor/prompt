@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prompt</title>
+  </head>
+  <body>
+    <h1>click me</h1>
+    <h1 id="demo"></h1>
+    <button onclick="myFunction()">click me</button>
+    <script>
+      function myFunction() {
+        var name = prompt("enter name", "Nagaraj");
+        document.getElementById("demo").innerText =
+          `Hlo! I am ${name} and you` + " " ;
+      }
+    </script>
+  </body>
+</html>
